@@ -1,0 +1,274 @@
+body {
+	background: url("http://bgfons.com/upload/stone_texture2401.jpg");
+	max-width: 1000px;
+	position: relative;
+}
+header {
+	height: 100px;
+	background: #fff;
+	border-bottom: 1px #ccc solid;
+}
+.logo {
+	position: relative;
+	top: 0px;
+	font-size: 2em;
+	left: 157px;
+	height:100px;
+	width:200px;
+	padding-left: 50px;
+	padding-right: 10px;
+}
+.logo h1 {
+	position: relative;
+	top: 25px;
+	color: white;
+}
+nav a {
+	position: relative;
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 14px
+	weight: 700;
+	top: -60px;
+	left: 646px;
+	text-decoration: none;
+	color: gray;
+}
+nav a:hover {
+	color:#4aaaa5;
+}
+nav a + a:before {
+	content: " | ";
+	padding: 0 20px;
+}
+.teal {
+	background-color: #4aaaa5;
+}
+p {
+	font-color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 2em;
+}
+.main-header {
+	background-color: #ffffff;
+	border: 1px solid #ccc;
+}
+.footer {
+	background-color: #666666
+}
+.main-content {
+	background-color: #ffffff;
+	border: 1px solid #ddd;
+	width: 420px;
+	height: 825px;
+	position:absolute;
+	top: 131px;
+	left: 157px;
+	padding: 30px;
+    border: solid #ccc 1px;
+}
+.portfolio {
+	height: 1216px;
+}
+.main-content img {
+	padding-right: 25px;
+}
+h1, h2, h3, h4, h5 {
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+h2 {
+	font-size: 1.5em;
+	color: #4aaaa5;
+	font-weight: 800;
+}
+.content {
+	width: 960px;
+}
+.main-section {
+	width: 650px;
+}
+.sidebar {
+	position: absolute;
+	width: 270px;
+	top: 130px;
+	height: 200px;
+	left: 657px;
+	background: white;
+	padding: 35px;
+	border: solid #ccc 1px;
+	text-align: center;
+}
+.sidebar ul li{
+	display: inline-block;
+	list-style-type: none;
+}
+
+footer {
+	height: 100px;
+	background-color: #666666;
+	position: relative;
+	top: 1400px;
+	border-top: 10px solid #4aaaa5;
+}
+.add {
+	top: 1000px;
+}
+footer p {
+	position: relative;
+	left: 555px;
+	top: 43px;
+	color: white;
+}
+
+hr {
+	height: 5px;
+	background: #ccc;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	border: none;
+}
+input {
+    height: 2.5em; /* for IE */
+    vertical-align: middle; /* This is optional but it makes legacy IEs look better */
+}
+input, textarea {
+  width: 650px;
+  display: block;
+  border: 1px solid #999;
+  height: 25px;
+  line-height: 2em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+textarea {
+	height: 180px;
+	margin-top: 5px;
+}
+button {
+	background-color: #4aaaa5; /* Teal */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+button:hover {
+	background-color: white;
+	color: #4aaaa5;
+	border: solid 1px black;
+}
+/* Portfolio */
+.m-25 {
+	margin-top: 25px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+/* 640px Viewport */
+@media only screen and (max-width: 640px) {
+	.container {
+		padding:10px;
+	}
+    .logo {
+    	width: 100%;
+    }
+    header {
+    	background: #4aaaa5;
+    }
+    nav a {
+    position: static;
+	text-align: center;
+	font-size: 1.5em;
+	weight: 700;
+	text-decoration: none;
+	width: 29%;
+	color: gray;
+	background-color: #fff;
+	margin:0;
+	padding: 10px;
+   }
+   nav a + a:before {
+	content: "";
+	padding: 0;
+}
+	div.main-content {
+		width: 80%;
+		height: 1065px;
+		top:176px;
+		left:30px;
+	}
+	.sidebar {
+		width:78%;
+		height:200px;
+		top:1028px;
+		left:30px;
+	}
+	footer {
+		top: 1208px;
+	}
+	footer p {
+		position:absolute;
+		left: 200px;
+	}
+}
+
+/* viewport 768px */
+@media only screen and (max-width: 768px) {
+	.container {
+		padding:10px;
+	}
+	div.main-content {
+		width: 80%;
+		height: 978px;
+		top:176px;
+		left:30px;
+	}
+	.sidebar {
+		width:78%;
+		height:200px;
+		top:1275px;
+		left:30px;
+		text-align: left;
+	}
+	footer {
+		top: 1500px;
+	}
+	footer p {
+		position:absolute;
+		left: 200px;
+	}
+	.logo {
+		left:30px;
+	}
+	nav a {
+		left: 370px;
+	}
+	img {
+		
+		width: 45%;
+	}
+}
+@media only screen and (max-width: 640px) { 
+	.image {width: 80%; padding-bottom:20px;}
+	div.main-content {height: 1275px; }
+	.sidebar {
+		height:200px;
+		top:1600px;
+		left:30px;
+	}
+	footer {
+		top: 1800px;
+	}
+	footer p {
+		position:absolute;
+		left: 200px;
+	}
+}
