@@ -182,7 +182,9 @@ form {
 		padding:10px;
 	}
     .logo {
+    	position:static;
     	width: 100%;
+    	text-align: center;
     }
     
     header {

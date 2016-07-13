@@ -182,7 +182,9 @@ input, textarea {
 		padding:10px;
 	}
     .logo {
+    	position:static;
     	width: 100%;
+    	text-align: center;
     }
     header {
     	background: #4aaaa5;
