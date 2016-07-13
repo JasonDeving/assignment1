@@ -193,7 +193,7 @@ input, textarea {
     position: static;
 	text-align: center;
 	font-size: 1.5em;
-	weight: 700;
+	font-weight: 700;
 	text-decoration: none;
 	width: 29%;
 	color: gray;
