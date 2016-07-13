@@ -189,12 +189,12 @@ button:hover {
     position: static;
 	text-align: center;
 	font-size: 1.5em;
-	weight: 700;
+	font-weight: 700;
 	text-decoration: none;
 	width: 29%;
 	color: gray;
 	background-color: #fff;
-	margin:0;
+	margin-left: 4px;
 	padding: 10px;
    }
    nav a + a:before {
@@ -259,7 +259,7 @@ button:hover {
 	}
 }
 @media only screen and (max-width: 640px) { 
-	.image {width: 80%; padding-bottom:20px;}
+	.image {width: 60%; padding-bottom:20px;}
 	div.main-content {height: 1275px; }
 	.sidebar {
 		height:200px;

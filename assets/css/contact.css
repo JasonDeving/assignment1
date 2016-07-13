@@ -198,7 +198,7 @@ input, textarea {
 	width: 29%;
 	color: gray;
 	background-color: #fff;
-	margin:0;
+	margin-left: 4px;
 	padding: 10px;
    }
    nav a + a:before {
